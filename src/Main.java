@@ -9,8 +9,9 @@ public class Main {
         System.out.println("Задача 2");
         System.out.println(fullName.toUpperCase());
         System.out.println("Задача 3");
-        String fullname= "Иванов Семён Семёнович" ;
-
+        String fulName= "Иванов Семён Семёнович" ;
+        fulName= fulName.replace("ё", "е") ;
+        System.out.println(fulName);
 
 
 
